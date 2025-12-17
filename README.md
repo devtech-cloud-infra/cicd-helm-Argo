@@ -5,7 +5,9 @@ that builds a Docker image and deploys it to a Kubernetes cluster.
 
 # What This Project Shows
 - Dockerized application
-- GitHub Actions CI/CD
+- GitHub Actions CI
+- ArgoCD
+- Helm 
 - Kubernetes Deployment & Service
 - Horizontal Pod Autoscaling
 - Production-ready structure
