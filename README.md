@@ -29,8 +29,9 @@ that builds a Docker image and deploys it to a Kubernetes cluster.
 # Deployment
 # install argocd
 kubectl create namespace argocd
-kubectl apply -n argocd \
-  -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+
 # apply Argocd application
 kubectl apply -f argocd/application.yaml
 # access Argo cd ui
